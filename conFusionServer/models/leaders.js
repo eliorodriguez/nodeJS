@@ -25,6 +25,10 @@ const leaderSchema = new Schema({
         type: String,
         default: ''
     },
+    designation: {
+        type: String,
+        required: true
+    },
     description: {
         type: String,
         required: true
